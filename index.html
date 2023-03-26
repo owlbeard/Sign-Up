@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="image">
+      <img src="zafer-order.jpeg" alt="ZAFER ORDER">
+    </div>
+    <div class="form-container">
+      <div class="header">
+        <div class="quote">
+          <p id="header">Türk Milletinin istidadı ve kesin kararı; medeniyet yolunda durmadan, yılmadan ilerlemektir. </p>
+          <p id="signature">Mustafa Kemal ATATÜRK</p>
+        </div>  
+      </div>
+      <h1>HAYDİ ZAFERE!</h1>
+      <form class="form" action="">
+        <div class="form-div">
+          <label for="name">Ad<span aria-label="required">*</span></label>
+          <input type="text" id="name" name="name" placeholder="Mustafa Kemal" required/>
+        </div>
+
+        <div class="form-div">
+          <label for="surname">Soyad<span aria-label="required">*</span></label>
+          <input type="text" id="surname" name="surname" placeholder="Atatürk" required/>
+        </div>
+
+        <div class="form-div">
+          <label for="email">E-mail<span aria-label="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="atatürk@zaferpartisi.org.tr" required/>
+        </div>
+
+        <div class="form-div">
+          <label for="phone">Tel. No</label>
+          <input type="tel" id="phone" name="phone"  placeholder="(923)-881-1919" value="(xxx)-xxx-xxxx"/>
+        </div>
+
+        <div class="form-div">
+          <label for="password">Şifre<span aria-label="required">*</span></label>
+          <input type="password" id="password" name="password" value="" required/>
+          <span class="error" aria-live="polite"></span>
+        </div>
+
+        <div class="form-div">
+          <label for="name">Şifre (Tekrar)<span aria-label="required">*</span></label>
+          <input type="password" id="confirm-password" name="confirm-password" value="" required/>
+        </div>
+        <p style="font-size: 12px;">*Yıldızla işaretlenen alanların doldurulması zorunludur.</p>
+        <div class="form-div">
+          <button type="submit" id="submit">Üye Ol</button>
+        </div>
+      </form>
+      <div class="already">
+        <p style="font-size: 20px;">Zaten üye misin?<a style="color: #FCF4E7; font-size: 24px;" 
+          href="https://zaferpartisi.org.tr/bagis-yapin/"> BAĞIŞ YAP!</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
